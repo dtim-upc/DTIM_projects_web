@@ -210,10 +210,17 @@
                         <a target="_blank" href="https://github.com/dtim-upc/NextiaDI">Github repository</a>.
                     </p>
                     <p class="text-justify">The easy way to use Nextia<sub>DI</sub>
-                        is with Maven. For SBT just add the following dependency in your build.sbt</p>
+                        is with Maven. For Gradle just add the following dependency in your build.sbt</p>
                     <div class="alert alert-info" role="alert">
-                        libraryDependencies += "edu.upc.essi.dtim.nextiadi" % "nextiadi_2.12" % "0.1"
+                        implementation 'edu.upc.essi.dtim:nextiadi:0.1.0'
                     </div>
+
+                    For bootstrapping, the following dependency is also required:
+
+                    <div class="alert alert-info" role="alert">
+                        implementation group: 'org.glassfish', name: 'javax.json', version: '1.1.4'
+                    </div>
+                        
 
 
                     <p>For more ways to add Nextia<sub>DI</sub>
