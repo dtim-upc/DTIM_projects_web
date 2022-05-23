@@ -70,7 +70,7 @@
                     </h1>
                     <p class="text-justify">
                         Nextia<sub>DI</sub>
-                        is a library for incremental and agnostic Data Integration that facilitates generaring schema of heterogeneous data sources and integrating them. This website is a companion of the research paper submitted to
+                        is a library for incremental and agnostic Data Integration that facilitates generating schema of heterogeneous data sources and integrating them. This website is a companion of the research paper submitted to
                         <a href="http://www.semantic-web-journal.net/" target="_blank">Semantic Web Journal</a>, where we present the method underlying our approach. Nextia<sub>DI</sub>'s novelty lies on a) extraction of schemata leveraging on the structure of schemaless data sources; b) standardization of such extracted schemata into a canonical data modedl (i.e., the RDFS graph data model) using the technique of production rules; c) annotation-based schema integration for RDF graphs that allow to capture the relationships of the modeled data sources via unions and joins; d) automated derivation of the required DI constructs for specific querying systems (i.e., source schemata, schema
                                   mappings, and target schema). All such features are provided in such a way that they are agnostic of the target
                                   system, and are additionally performed in an incremental manner. Nextia<sub>DI</sub>
@@ -189,7 +189,7 @@
                                 </span>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="http://www.semantic-web-journal.net/system/files/swj3138.pdf">
                                     <i class="far fa-file-pdf fa-2x"></i>
                                 </a>
                                 <!-- <a href="#"  data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/u0dqqkH14JA"><i class="fab fa-youtube fa-2x"></i></a> -->
@@ -235,22 +235,7 @@
                             </ul>
                           </p> -->
 
-                    <h3>Datasets</h3>
-                    <p class="text-justify">
-                        The datasets used in the experiments are available in the following links:
-                        <ul>
-                            <li>
-                                <a href="https://mydisk.cs.upc.edu/s/CerZ63AREA2f2qF/download" target="_blank">Bootstrapping experiment</a>
-                            </li>
-                            <li>
-                                <a href="https://mydisk.cs.upc.edu/s/Sd2zgb3AGYwCP8S/download" target="_blank">Integration experiment 1</a>
-                            </li>
-                            <li>
-                                <a href="https://mydisk.cs.upc.edu/s/X2FWGye3C5g5rjD/download" target="_blank">Integration experiment 2</a>
-                            </li>
-                            <li>Integration experiment 3</li>
-                        </ul>
-                    </p>
+                    
                     <!--
                         <br><br>
                         <h3>Online version</h3>
@@ -265,40 +250,56 @@
                         <a target="_blank" href="https://www.acm.org/publications/reproducibility">[1]</a>,
                         <a target="_blank" href="http://db-reproducibility.seas.harvard.edu/">[2]</a>. Hence, we provide you with
                         <a href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments" target="_blank">detailed instructions</a>
-                        on how to reproduce the experiments presented in our work:
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/NextiaJD#experiment-1-predictive-accuracy-of-nextiajd">Experiment 1: evaluation of the predictive accuracy</a>
+                        on how to reproduce the experiments presented in our work and the data sources used in each experiment:
+                        <ul class="list-group ">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/NextiaJD#experiment-1-predictive-accuracy-of-nextiajd">Bootstrapping experiment</a>
+                                </div>
+                                 <a href="https://mydisk.cs.upc.edu/s/CerZ63AREA2f2qF/download" target="_blank"> <span class="badge bg-primary rounded-pill" style="padding: 5 8 5 8;">Download data sources</span></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments#experiment-2-comparison-with-the-state-of-the-art#">Experiment 2: comparison with the state-of-the-art</a>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments#experiment-2-comparison-with-the-state-of-the-art#">Schema integration experiment 1</a>
+                                </div>
+                                <a href="https://mydisk.cs.upc.edu/s/Sd2zgb3AGYwCP8S/download" target="_blank"> <span class="badge bg-primary rounded-pill" style="padding: 5 8 5 8;">Download data sources</span></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/Scalability#scalability">Experiment 3: scalability</a>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/Scalability#scalability">Schema integration experiment 2</a>
+                                </div>
+                                <a href="https://mydisk.cs.upc.edu/s/X2FWGye3C5g5rjD/download" target="_blank"> <span class="badge bg-primary rounded-pill" style="padding: 5 8 5 8;">Download data sources</span></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/SemanticNS#discovery-of-semantic-non-syntactic-relationships">Experiment 4: discovery of semantic non-syntactic relationships</a>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <a target="_blank" href="https://github.com/dtim-upc/NextiaJD/tree/main/experiments/SemanticNS#discovery-of-semantic-non-syntactic-relationships">Schema integration experiment 2</a>
+                                </div>
+                                <a href="https://mydisk.cs.upc.edu/s/WeDZ3mySLz8MBgB/download" target="_blank"> <span class="badge bg-primary rounded-pill" style="padding: 5 8 5 8;">Download data sources</span></a>
                             </li>
                         </p>
                     </p>
+
+        
+
                 </div>
                 <hr>
                 <div class="bs-docs-section" id="demonstration">
                     <h1>Demonstration</h1>
                     <br>
 
-                    <h3>Live demo</h3>
+                    <h3>Showcase</h3>
                     <p>
-                        Live demos of NextiaJD are available as Zeppelin notebooks. Bear in mind that,
+                        We showcase the effectiveness of Nextia<sub>DI</sub> in <a href="http://www.essi.upc.edu/~snadal/odin.html">ODIN tool </a> by automatically generating all DI constructs. Before these constructs were created manually.
+                         <!-- Bear in mind that,
                         <b>in order to access them you must first login</b>
                         with the following credentials (user:
                         <b>user1</b>, password:
-                        <b>nextiajd</b>).
+                        <b>nextiadi</b>). -->
                     </p>
-                    <h4>Interactive GUI</h4>
+                    <h4>Notebook step by step</h4>
                     <p class="text-justify">
-                        A live demo of the user interface is available
-                        <a target="_blank" href="http://dtim.essi.upc.edu:8081/#/notebook/2G9CMU9C4">here</a>.
+                        A live demo for learning how to use Nextia<sub>DI</sub> 
+                        <a target="_blank" href="http://dtim.essi.upc.edu:8081/#/notebook/2G9CMU9C4"> here</a>.
                     </p>
 
                     <h4>Library usage</h4>
