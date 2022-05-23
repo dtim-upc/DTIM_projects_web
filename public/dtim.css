@@ -7,6 +7,13 @@ body {
 	margin: 0;
 	zoom: 100%;
 }
+.avatar {
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
@@ -5734,22 +5741,3 @@ body.sitesection-showbag .site-footer {
 }
 
 
-
-/* new */
-
-.avatar {
-    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
-
-    /* make a square container */
-    width: 140px;
-    height: 140px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-}
