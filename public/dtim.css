@@ -5733,3 +5733,23 @@ body.sitesection-showbag .site-footer {
 	border: none;
 }
 
+
+
+/* new */
+
+.avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+
+    /* make a square container */
+    width: 140px;
+    height: 140px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
